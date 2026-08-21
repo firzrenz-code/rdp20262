@@ -1,3 +1,4 @@
+```yaml
 name: RDP
 
 on:
@@ -54,75 +55,3 @@ jobs:
             Start-Sleep -Seconds 300
           }
 ```
-
----
-
-# Step 4 â€” Run the Workflow
-
-1. Open your GitHub Repository.
-2. Click **Actions**.
-3. Select **RDP**.
-4. Click **Run Workflow**.
-5. Wait 2â€“5 minutes.
-
----
-
-# Step 5 â€” Get Your Login Details
-
-After the workflow finishes, open the logs.
-
-You will see:
-
-* âœ… Tailscale IP Address
-* ðŸ‘¤ Username
-* ðŸ”‘ Password
-
-Save them safely.
-
----
-
-# Step 6 â€” Connect to the VPS
-
-Open **Remote Desktop Connection**.
-
-Enter the Tailscale IP.
-
-Click **Connect**.
-
-Login using:
-
-* Username: **RDP**
-* Password: **Generated Password**
-
----
-
-# Features
-
-* âœ… 100% Free
-* âœ… Windows Latest
-* âœ… Administrator Access
-* âœ… Secure Tailscale Connection
-* âœ… Automatic Password Generation
-* âœ… Easy Deployment
-* âœ… GitHub Actions Based
-* âœ… Beginner Friendly
-
----
-
-# Project Structure
-
-```text
-Repository
-â”‚
-â”œâ”€â”€ .github
-â”‚     â””â”€â”€ workflows
-â”‚            â””â”€â”€ rdp.yml
-â”‚
-â””â”€â”€ README.md
-```
-
----
-
-# Congratulations!
-
-Your Free Windows VPS is now ready to use. Simply connect using the generated Tailscale IP address, username, and password shown in the workflow logs.
